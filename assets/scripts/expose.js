@@ -60,7 +60,7 @@ function init() {
   playButton.addEventListener('click', () => {
     audio.play();
 
-    if (image.src = 'assets/images/party-horn.svg'){
+    if (image.src == 'assets/images/party-horn.svg'){
       jsConfetti.addConfetti()
     }
   });
